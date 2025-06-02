@@ -7,9 +7,11 @@ A Python script that processes recorded videos to change your voice using Eleven
 - Extract audio from video files
 - Automatic speech transcription using Faster Whisper
 - AI voice generation using ElevenLabs
-- Automatic duration matching - ensures output video has same length as input
+- Automatic video speed adjustment - speeds up video to match AI voice timing
+- Automatic duration matching - ensures output audio is synced with the video
 - Replace original audio with AI-generated voice
 - Support for multiple voice options
+- Universal compatibility - works with all major video players (QuickTime, VLC, etc.)
 - Command-line interface
 
 ## Prerequisites
