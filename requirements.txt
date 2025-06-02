@@ -1,0 +1,4 @@
+elevenlabs==0.2.27
+requests==2.31.0
+python-dotenv==1.0.0
+faster-whisper==1.1.1 
