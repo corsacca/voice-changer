@@ -13,6 +13,7 @@ A Python script that processes recorded videos to change your voice using Eleven
 - Support for multiple voice options
 - Universal compatibility - works with all major video players (QuickTime, VLC, etc.)
 - Command-line interface
+- **macOS Quick Action** - Right-click on any video file to change voice!
 
 ## Prerequisites
 
@@ -62,6 +63,25 @@ Or add it to your shell profile (`.zshrc`, `.bashrc`, etc.):
 echo 'export ELEVENLABS_API_KEY="your_api_key_here"' >> ~/.zshrc
 source ~/.zshrc
 ```
+
+## Quick Setup for macOS Users 🚀
+
+For the easiest experience, set up the **Quick Action** that lets you right-click on any video file:
+
+```bash
+./setup_quick_action.sh
+```
+
+This will create a macOS Quick Action that allows you to:
+- Right-click on any video file in Finder
+- Select "Change Voice with AI" from the context menu
+- Choose your preferred voice from a dialog
+- Get progress notifications during processing
+- Automatically open the result when complete
+
+**That's it!** No need to use the command line anymore.
+
+For detailed setup instructions, see [QUICK_ACTION_SETUP.md](QUICK_ACTION_SETUP.md).
 
 ## Usage
 
